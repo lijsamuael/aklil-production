@@ -1,0 +1,66 @@
+{
+  "services": [
+    {
+      "title": "Website Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "production.svg"
+    },
+    {
+      "title": "System Production",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "consistency.svg"
+    },
+    {
+      "title": "Content Creation",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "management.svg"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio.png"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio1.jpg"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio2.jpg"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio3.jpeg"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio4.png"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio5.png"
+    },
+    {
+      "title": "e-commerce website",
+      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "doner": "ABC Company",
+      "image": "portfolio6.jpg"
+    }
+  ],
+
+  "products": [{}]
+}
