@@ -1,7 +1,7 @@
 {
   "services": [
     {
-      "title": "Website Development",
+      "title": "Production",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "image": "production.svg"
     },
@@ -62,5 +62,39 @@
     }
   ],
 
-  "products": [{}]
+  "products": [{}],
+  "team": [
+    {
+      "name": "Person One",
+      "role": "Chief Executive Officer(CEO)",
+      "description": "The CEO's role in raising a company's corporate IQ is to establishan atmosphere that promotes knowledge sharing and collaboration.",
+      "image": "portfolio4.png"
+    },
+    {
+      "name": "Person Two",
+      "role": "Graphics Designer",
+      "description": "The CEO's role in raising a company's corporate IQ is to establishan atmosphere that promotes knowledge sharing and collaboration.",
+      "image": "portfolio5.png"
+    },
+    {
+      "name": "Person Three",
+      "role": "Web Developer",
+      "description": "The CEO's role in raising a company's corporate IQ is to establishan atmosphere that promotes knowledge sharing and collaboration.",
+      "image": "portfolio3.png"
+    }
+  ],
+  "stat":[
+    {
+      "name": "Cleints",
+      "value": "120"
+    },
+    {
+      "name": "Projects",
+      "value": "120"
+    },
+    {
+      "name": "Sponsors",
+      "value": "120"
+    }
+  ]
 }

@@ -19,29 +19,47 @@ export default function Navbar() {
     <nav className=" bg-gray-dark3 font-semibold bg-transparent text-white py-8 h-20 px-[5%] font-mono">
       <div className="flex justify-between lg:justify-around items-start">
         <div className="text-primary-yellow">
-          <Link className="flex items-center">
+          <Link to="/" className="flex items-center">
             {" "}
             <img src="/images/logoo.png" alt="" className="w-12 " />
             <img src="/images/logoon.png" alt="" className="w-32 " />
           </Link>
         </div>
         <div className="hidden lg:flex gap-x-8">
-          <Link className="hover:border-b-2 border-primary-yellow primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/"
+            className="hover:border-b-2 border-primary-yellow primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             HOME
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/about"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             ABOUT
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/service"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             SERVICES
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/portfolio"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             PORTFOLIO
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/team"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             TEAM
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/contact"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             CONTACT US
           </Link>
         </div>

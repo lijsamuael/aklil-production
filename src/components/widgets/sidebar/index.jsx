@@ -10,22 +10,40 @@ export default function Sidebar({ onClose }) {
           <button onClick={onClose} className="py-4 self-end px-[5%]">
             <CancelIcon />
           </button>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/"
+            className="hover:border-b-2 border-primary-yellow primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             HOME
           </Link>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/about"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             ABOUT
           </Link>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
-            SERVICE
+          <Link
+            to="/service"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
+            SERVICES
           </Link>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/portfolio"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             PORTFOLIO
           </Link>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/team"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             TEAM
           </Link>
-          <Link className="self-center  hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/contact"
+            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+          >
             CONTACT US
           </Link>
         </div>
