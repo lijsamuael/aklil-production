@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <nav className=" bg-gray-dark3 font-semibold bg-transparent text-white py-8 h-20 px-[5%] font-mono">
-      <div className="flex justify-between lg:justify-around items-start">
+      <div className="flex items-start justify-between lg:justify-around">
         <div className="text-primary-yellow">
           <Link className="flex items-center">
             {" "}
@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
             ABOUT
           </Link>
-          <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
+          <Link to="/" className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
             SERVICES
           </Link>
           <Link className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300">
@@ -45,7 +45,7 @@ export default function Navbar() {
             CONTACT US
           </Link>
         </div>
-        <div className=" flex lg:hidden">
+        <div className="flex lg:hidden">
           <button onClick={openModal}>
             <YellowMenuIcon className="text-white" />
           </button>

@@ -1,0 +1,33 @@
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    background: #FFDE59;
+    border-radius: 50px;
+  }
+  
+  .contact {
+    margin-bottom: 1.5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    --tw-text-opacity: 1;
+  }
+  .map{
+    width:90vw;
+    text-align: center;
+    height: 80vh;
+  }
+  .send{
+    border-color: #FFDE59;
+    color:#FFDE59;
+
+  }
+  .send:hover{
+    background-color: #FFDE59;
+    color:black;
+  }
