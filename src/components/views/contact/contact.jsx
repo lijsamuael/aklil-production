@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './contactStyles.css';
 export default class ContactComponent extends React.Component { 
    myStyle = {
     backgroundColor: '' 
@@ -85,8 +85,8 @@ render() {
 
 <div  className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto text-white rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100">
 	<div className="flex flex-col justify-between">
-		<div className="space-y-2">
-			<h2 className="text-4xl font-bold leading-tight lg:text-5xl">Send Us Message!</h2>
+		<div className="space-y-2"> 
+			<h2 className="text-4xl font-bold leading-tight contact lg:text-5xl">Send Us Message!</h2>
 			<div className="dark:text-gray-400">Have a specific question about our product or service? Send us a message and we'll get back to you as soon as possible!</div>
 		</div>
 		<img src='/images/send.png' alt="" className="p-6 h-52 md:h-64" />

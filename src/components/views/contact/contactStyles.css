@@ -1,0 +1,33 @@
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    background: #FFDE59;
+    border-radius: 50px;
+  }
+  
+  .contact {
+      margin-bottom: 1.5rem;
+      border-style: solid;
+      border-color: currentColor;
+      margin: 2.5rem;
+      text-align: center;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+  }
+  .map{
+    width:90vw;
+    text-align: center;
+    height: 80vh;
+  }
+  .send{
+    border-color: #FFDE59;
+    color:#FFDE59;
+
+  }
+  .send:hover{
+    background-color: #FFDE59;
+    color:black;
+  }
