@@ -1,11 +1,9 @@
-.myteam{
-    transition: all 0.2s ease-in-out;
-  }
-  
+
   .myteam:hover {
     animation-name: example;
     animation-duration: 2s;
-    animation-iteration-count:1;
+    animation-iteration-count:3;
+    
   }
   
   @keyframes example {
@@ -13,3 +11,4 @@
     50%  {transform: scale(1.2);}
     100% {transform: scale(1);}
   }
+  
