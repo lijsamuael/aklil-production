@@ -15,7 +15,6 @@ export default function App() {
     <>
       <div
         className="h-screen bg-cover bg-center bg-gray-700"
-        style={{ backgroundImage: "url(/images/bg4.png)" }}
       >
         <Navbar />
         <Routes>

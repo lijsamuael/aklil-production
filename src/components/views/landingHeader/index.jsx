@@ -8,8 +8,11 @@ export default function LandingHeader() {
       <div className="flex flex-col w-full z-100 bg-gray-dark3 text-primary-white max-w-[1000px] mx-auto  gap-y-16 px-[5%]">
         <div className=" pt-16">
           <div className="flex justify-center gap-x16"></div>
-          <p className="py-8 text-center text-2xl font-semibold text-primary-yellow uppercase md:text-4xl tracking-widest">
+          {/* <p className="py-8 text-center text-2xl font-semibold text-primary-yellow uppercase md:text-4xl tracking-widest">
             Aklil Production
+          </p> */}
+          <p className="py-8 flex justify-center text-2xl font-semibold text-primary-yellow uppercase md:text-4xl tracking-widest">
+            <img src="/images/logoon.png" alt="" />
           </p>
           <p className="text-center text-4xl font-semibold text-white uppercase md:text-5xl tracking-widest">
             We Produce Develope and Promote
