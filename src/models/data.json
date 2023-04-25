@@ -3,17 +3,17 @@
     {
       "title": "Production",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "production.svg"
+      "image": "produce.gif"
     },
     {
-      "title": "System Production",
+      "title": "Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "consistency.svg"
+      "image": "develope.gif"
     },
     {
-      "title": "Content Creation",
+      "title": "Promotion",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "management.svg"
+      "image": "promote.gif"
     }
   ],
 

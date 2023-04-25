@@ -1,7 +1,7 @@
 export default function AboutHeader() {
   return (
     <section className="">
-      <div className="relative grid w-full bg-gray-dark3 h-96 lg:h-[32rem] place-items-center">
+      <div className=" grid w-full bg-gray-dark3 h-96 lg:h-[32rem] place-items-center">
         <div className="flex flex-col items-center mx-auto text-center">
           <h1 className="text-4xl font-semibold text-white uppercase md:text-6xl">
             ABOUT US
