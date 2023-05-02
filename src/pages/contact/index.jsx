@@ -1,39 +1,24 @@
 export default function ContactPage() {
   return (
-    <div className="bg-primary-white pt-16 pb-16 lg:pt-32">
+    <div className="bg-primary-light1 pt-16 pb-16 lg:pt-32">
       <section id="contact" className="text-primary-blackfont-mono ">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12 gap-y-8">
-            <h1 className="contact sm:text-5xl text-2xl font-medium  mb-4 text-gray-900">
-              Contact Us
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
-              If you have any questions, inquiries, or feedback, please do not
-              hesitate to get in touch with us. Our knowledgeable and friendly
-              team is ready to assist you in any way possible.
-            </p>
-          </div>
+        <div className="mx-auto text-primary-black mb-12 pt-12 lg:pt-20 max-w-[510px] text-center lg:mb-20 font-mono">
+          <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
+            Get in touch with
+          </h2>
+          <p className="text-body-color text-base">
+            There are many variations of passages of Lorem Ipsum available but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
         </div>
       </section>
       <div className="flex flex-col lg:flex-row max-w-[1200px] mx-auto justify-center lg:justify-between font-mono py-8 px-[5%]">
         <div className="w-full ">
-          <div className="flex items-center  rounded-md p-4">
-            <div className="icon bg-primary-yellow rounded-full p-3 mr-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-primary-black"
-                fill="#000000"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
-                />
-                <circle cx="12" cy="10" r="3" fill="currentColor" />
-              </svg>
+          <div className="flex justify-between flex-col items-center  rounded-md p-4">
+            <div className="border-8 border-gray-dark3 rounded-full">
+              <img className="w-20" src="/gifs/location.gif" alt="" />
             </div>
             <div>
               <h3 className="text-primary-black font-bold">Address</h3>
@@ -44,34 +29,9 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="w-full ">
-          <div className="flex items-center rounded-md p-4">
-            <div className="icon bg-primary-yellow rounded-full p-3 mr-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-primary-black"
-                fill="#000000"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16.5 15.5v-3a1 1 0 0 0-1-1h-2.5a2 2 0 0 1-2-2v-2.5a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1V9a2 2 0 0 1-2 2H5a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1h1.5"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 7.5a3.5 3.5 0 0 0-3.5 3.5v1"
-                />
-              </svg>
+          <div className="flex justify-between flex-col items-center rounded-md p-4">
+          <div className="border-8 border-gray-dark3 rounded-full">
+              <img className="w-20" src="/gifs/call.gif" alt="" />
             </div>
             <div>
               <h3 className="text-primary-black font-bold">Call Us</h3>
@@ -80,34 +40,9 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="w-full ">
-          <div className="flex items-center  rounded-md p-4">
-            <div className="icon bg-primary-yellow rounded-full p-3 mr-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-primary-black"
-                fill="#000000"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M20 9L12 15L4 9"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M20 9v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 3H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"
-                />
-              </svg>
+          <div className="flex justify-between flex-col items-center  rounded-md p-4">
+          <div className="border-8 border-gray-dark3 rounded-full">
+              <img className="w-20" src="/gifs/mail.gif" alt="" />
             </div>
             <div>
               <h3 className="text-primary-black font-bold">Email Us</h3>

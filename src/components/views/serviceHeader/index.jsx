@@ -18,7 +18,7 @@ export default function ServiceHeader() {
                 className="border-pray-dark3 border-8 rounded-full w-40 h-40 object-cover z-10"
               />
             </div>
-            <div className=" bg-primary-light2 text-center shadow-lg  hover:bg-secondary-light2 hover:scale-105 hover:duration-500  z-0 pt-20 font-mono space-y-6 px-4 rounded-lg py-2">
+            <div className=" bg-primary-light3 text-center shadow-lg  hover:bg-primary-yellow hover:scale-105 hover:duration-500  z-0 pt-20 font-mono space-y-6 px-4 rounded-lg py-2">
               <div className="space-y-2">
                 <h4 className="text-2xl font-bold whitespace-nowrap">
                   {item.name}

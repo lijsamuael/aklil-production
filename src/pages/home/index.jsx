@@ -2,9 +2,9 @@
 import Portfolios from "../../components/views/portfolioSection";
 import TeamSection from "../../components/views/teamSection";
 import AboutSection from "../../components/views/aboutSection";
-import ContactComponent from "../contact";
 import MainHeader from "../../components/views/mainHeader";
 import ServiceHeader from "../../components/views/serviceHeader";
+import ContactSection from "../../components/views/teamSection/contactSection";
 
 export default function HomePage() {
   return (
@@ -18,7 +18,7 @@ export default function HomePage() {
         <TeamSection />
       </div>
 
-      <ContactComponent />
+      <ContactSection />
     </main>
   );
 }

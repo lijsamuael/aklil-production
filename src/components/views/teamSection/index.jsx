@@ -3,7 +3,7 @@ import data from "../../../models/data.json";
 export default function TeamSection() {
   return (
     <div>
-      <section className="bg-white dark:bg-gray-900 font-mono py-8 bg-gradient-to-b from-primary-white to-primary-yellow">
+      <section className="bg-white dark:bg-gray-900 font-mono py-8 bg-gradient-to-b from-primary-white to-primary-light4">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-4xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
             Our <span className="text-blue-500">Executive Team</span>

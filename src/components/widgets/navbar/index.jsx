@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 z-10000 w-full  bg-gradient-to-r from-primary-white to-primary-yellow   text-black  py-4 h-20 px-[%] font-mono shadow-xl  border-gray-light4">
+    <nav className="fixed top-0 z-10000 w-full  bg-primary-dark1   text-black  py-4 h-20 px-[%] font-mono shadow-xl  border-gray-light4">
       <div className="flex justify-between max-w-[1500px] mx-auto items-start">
         <div className="text-primary-yellow">
           <Link to="/" className="flex items-center gap-x-4">
@@ -28,37 +28,37 @@ export default function Navbar() {
         <div className="hidden lg:flex gap-x-8 items-center">
           <Link
             to="/"
-            className="hover:border-b-2 border-primary-yellow primary-yellow active:border-b-2 active:text-yellow-300"
+            className="hover:border-b-2 border-gray-dark3 primary-yellow active:border-b-2 active:text-yellow-300"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+            className="hover:border-b-2 border-gray-dark3 active:border-b-2 active:text-yellow-300"
           >
             About
           </Link>
           <Link
             to="/service"
-            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+            className="hover:border-b-2 border-gray-dark3 active:border-b-2 active:text-yellow-300"
           >
             Service
           </Link>
           <Link
             to="/portfolio"
-            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+            className="hover:border-b-2 border-gray-dark3 active:border-b-2 active:text-yellow-300"
           >
             Portfolio
           </Link>
           <Link
             to="/team"
-            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300"
+            className="hover:border-b-2 border-gray-dark3 active:border-b-2 active:text-yellow-300"
           >
             Team
           </Link>
           <Link
             to="/contact"
-            className="hover:border-b-2 border-primary-yellow active:border-b-2 active:text-yellow-300 whitespace-nowrap"
+            className="hover:border-b-2 border-gray-dark3 active:border-b-2 active:text-yellow-300 whitespace-nowrap"
           >
             Contact
           </Link>

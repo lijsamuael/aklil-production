@@ -8,7 +8,7 @@ export default function AboutSection() {
         <div className="flex flex-wrap">
           <div className="w-5/6 sm:w-1/2 p-6">
             <h3 className="text-primary-black font-mono text-4xl text-gray-800 font-bold leading-none mb-3">
-              <span className="border-b-4 border-primary-yellow">Who</span> We
+              <span className="border-b-4 text-primary-yellow border-primary-yellow">Who</span> We
               Are
             </h3>
             <p className="text-gray-dark3 mb-8 text-xl font-mono">
@@ -30,7 +30,7 @@ export default function AboutSection() {
           <div className="w-full sm:w-1/2 p-6 mt-6">
             <div className="align-middle">
               <h3 className="text-primary-black font-mono text-4xl text-gray-800 font-bold leading-none mb-3">
-                <span className="border-b-4 border-primary-yellow">What</span>{" "}
+                <span className="border-b-4 text-primary-yellow border-primary-yellow">What</span>{" "}
                 We Do
               </h3>
               <p className="text-gray-dark3 mb-8 text-xl font-mono">
@@ -46,7 +46,7 @@ export default function AboutSection() {
         <div className="flex flex-wrap">
           <div className="w-5/6 sm:w-1/2 p-6">
             <h3 className="text-primary-black font-mono text-4xl text-gray-800 font-bold leading-none mb-3">
-              <span className="border-b-4 border-primary-yellow">Why</span> Us
+              <span className="border-b-4 text-primary-yellow border-primary-yellow">Why</span> Us
             </h3>
             <p className="text-gray-dark3 mb-8 text-xl font-mono">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
