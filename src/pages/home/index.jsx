@@ -4,6 +4,7 @@ import Testmonial from "../../components/views/testimonial";
 import ProductList from "../../components/views/productList";
  import ContactComponent from "../../components/views/contact/contact";
  import TeamComponent from "../../components/views/team/team";
+import OfferComponent from "../../components/views/offer/offer";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <ProductList />
       <ContactComponent/>
       <TeamComponent/>
+      <OfferComponent/>
     </main>
   );
 }

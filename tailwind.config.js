@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: { 
+      'custom-tl': '10px 20px', // top-left corner
+      'custom-tr': '20px 30px', // top-right corner
+      'custom-br': '30px 40px', // bottom-right corner
+      'custom-bl': '50px 60px',
+    },
 
     screens: {
       ssm: "475px",

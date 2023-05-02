@@ -1,0 +1,39 @@
+.img1{
+border-top-left-radius: 60px;    
+
+}
+
+.img3{
+border-top-right-radius: 60px;
+}
+.img2{
+ border-top-right-radius: 40px;   
+ border-top-left-radius: 40px;
+}
+ .dollar{
+    border:1px solid black;
+    color:#f1960d;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border: 1px solid black; 
+ }
+.turkey{
+    background-color:darkgreen;
+    color:white;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border: 1px solid black; 
+}
+.see{
+    color:green;
+    border-color: #f1960d;
+}
+.all{
+    justify-content: baseline;
+}

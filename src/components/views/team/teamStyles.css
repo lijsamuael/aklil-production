@@ -3,9 +3,8 @@
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count:3;
-    
+
   }
-  
   @keyframes example {
     0%   {transform: scale(1);}
     50%  {transform: scale(1.2);}
